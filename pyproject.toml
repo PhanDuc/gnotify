@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gnotify"
-version = "0.1.0"
+version = "0.0.1"
 description = "A Python library for sending notifications to Google Spaces with trading holiday awareness"
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
 authors = [
-    {name = "Duc Phan", email = ""}
+    {name = "Duc Phan", email = "vducphan@gmail.com"},
 ]
 classifiers = [
     "Development Status :: 3 - Alpha",

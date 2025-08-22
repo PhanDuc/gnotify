@@ -50,6 +50,23 @@ from gnotify import add_webhook
 add_webhook("new_channel", "https://chat.googleapis.com/v1/spaces/...")
 
 ```
+### Running from subdirectory
+```python
+
+from dotenv import load_dotenv, find_dotenv
+
+load_dotenv(find_dotenv())  # Find & Load environment variables from .env file
+
+from gnotify import send_gspaces_message
+
+send_gspaces_message(
+    message="Hello from gnotify!",
+    channel="your_channel_name",
+    message_type="info"
+)
+
+```
+
 ### Overwrite the webhook URL for an existing channel
 ```python
 
