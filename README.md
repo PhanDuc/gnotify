@@ -1,6 +1,6 @@
 # gnotify
 
-A Python library for sending notifications to Google Spaces and Slack with trading holiday awareness.
+A Python library for sending notifications to Google Spaces with trading holiday awareness.
 
 ## Installation
 
